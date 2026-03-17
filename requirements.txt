@@ -1,0 +1,5 @@
+Azure Data Factory
+Azure Databricks
+Azure Event Hubs
+Azure SQL Database
+Power BI Desktop
