@@ -10,7 +10,6 @@ spark.conf.set(f"fs.azure.account.oauth2.client.secret.{storage_account_name}.df
 spark.conf.set(f"fs.azure.account.oauth2.client.endpoint.{storage_account_name}.dfs.core.windows.net", oauth_endpoint)
 
 print("Connection Configured Successfully")
-spark.conf.set("fs.azure.account.key.customerdata30.blob.core.windows.net", "mK6QHYLFiAwHQVOqYRe0FIOt5fSxqwU8AWBfW620NSGxa6QQZvx3V3Zh4PRuRs7xSbC6EY7KFTxB+AStXQab6g==")
 
 # reading data from blob storage
 
