@@ -1,4 +1,4 @@
-# OAuth 2.0 Endpoint
+"""# OAuth 2.0 Endpoint
 oauth_endpoint = f"https://login.microsoftonline.com/{tenant_id}/oauth2/token"
 
 # Set Spark Config for ADLS Gen2 OAuth
@@ -10,7 +10,7 @@ spark.conf.set(f"fs.azure.account.oauth2.client.secret.{storage_account_name}.df
 spark.conf.set(f"fs.azure.account.oauth2.client.endpoint.{storage_account_name}.dfs.core.windows.net", oauth_endpoint)
 
 print("Connection Configured Successfully")
-
+"""
 # reading data from blob storage
 
 df = spark.read.format("csv") \
