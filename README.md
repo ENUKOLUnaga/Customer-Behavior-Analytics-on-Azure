@@ -52,5 +52,9 @@ Amazon Customer Behavior Survey Dataset
 <img width="1103" height="586" alt="Screenshot 2026-03-17 133358" src="https://github.com/user-attachments/assets/d4772a99-b773-4141-845e-b9d18c156d62" />
 <img width="1174" height="633" alt="Screenshot 2026-03-17 133412" src="https://github.com/user-attachments/assets/ad40dc2f-0ccf-4fb0-82bc-0c4a3fa29e32" />
 
+## conclusion
+
+This project demonstrates an end-to-end Customer Behavior Analytics Pipeline on Azure, integrating batch and streaming data processing. It analyzes customer behavior using machine learning techniques such as clustering and provides actionable insights through Power BI dashboards. The solution helps in understanding customer segments, reducing cart abandonment, and improving recommendation effectiveness, enabling data-driven decision-making.
+
 
 
