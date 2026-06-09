@@ -11,12 +11,12 @@ spark.conf.set(f"fs.azure.account.oauth2.client.endpoint.{storage_account_name}.
 
 print("Connection Configured Successfully")
 
-# Loading data from blob storage
+# ingested data
 
 df = spark.read.format("csv") \
 .option("header","true") \
 .option("inferSchema","true") \
-.load(f"wasbs://{container_name}@{storage_account_name}.blob.core.windows.net/processed/Amazon Customer Behavior Survey.csv")
+.load("{location}")
 display(df)
 
 # selecting required columns
